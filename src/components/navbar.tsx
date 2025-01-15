@@ -26,10 +26,10 @@ export default function Navbar() {
             <div className="max-w-[900px] mx-auto flex justify-between items-center">
                 {/* Logo Icon */}
                 <Image src={logo} alt="logo" className="w-48" priority />
-                {screenWidth < 768 ?
+                {screenWidth <= 768 ?
                     <Sheet>
                         {/* FA BARS */}
-                        <SheetTrigger asChild className="md:hidden">
+                        <SheetTrigger asChild className="">
                             <div className="w-10 h-12 p-1 flex flex-col justify-evenly items-center cursor-pointer">
                                 <div className="w-full h-1 bg-white rounded-lg" />
                                 <div className="w-full h-1 bg-white rounded-lg" />

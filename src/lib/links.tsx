@@ -1,4 +1,4 @@
-import { Home, User2, PenToolIcon, Handshake } from "lucide-react";
+import { Home, User2, PenToolIcon, Handshake, Mails } from "lucide-react";
 
 export const links = [
     {
@@ -20,5 +20,10 @@ export const links = [
         href: "/",
         name: "My Friends",
         icon: <Handshake />,
+    },
+    {
+        href: "/",
+        name: "Messages",
+        icon: <Mails />,
     },
 ];
