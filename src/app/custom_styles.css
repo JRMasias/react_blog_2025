@@ -1,0 +1,7 @@
+.colonna {
+  font-family: "Colonna MT", Courier;
+  background: -webkit-linear-gradient(45deg, #a855f7 20%, #3b0764);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

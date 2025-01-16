@@ -22,7 +22,7 @@ export default function Navbar() {
     }, []); // end useEffect()
 
     return (
-        <div className="sticky top-0 right-0 p-2 bg-purple-950">
+        <div className="sticky top-0 right-0 p-2 bg-gradient-to-b from-purple-800 to-purple-950">
             <div className="max-w-[900px] mx-auto flex justify-between items-center">
                 {/* Logo Icon */}
                 <Image src={logo} alt="logo" className="w-48" priority />
@@ -30,10 +30,10 @@ export default function Navbar() {
                     <Sheet>
                         {/* FA BARS */}
                         <SheetTrigger asChild className="">
-                            <div className="w-10 h-12 p-1 flex flex-col justify-evenly items-center cursor-pointer">
-                                <div className="w-full h-1 bg-white rounded-lg" />
-                                <div className="w-full h-1 bg-white rounded-lg" />
-                                <div className="w-full h-1 bg-white rounded-lg" />
+                            <div className="w-9 h-10 p-1 flex flex-col justify-evenly items-center cursor-pointer">
+                                <div className="w-full h-[2px] bg-white rounded-lg" />
+                                <div className="w-full h-[2px] bg-white rounded-lg" />
+                                <div className="w-full h-[2px] bg-white rounded-lg" />
                             </div>
                         </SheetTrigger>
                         <SheetContent side="top" className="flex flex-col pt-16 gap-0 border-b-0 justify-center items-center bg-purple-950 w-full text-white">
